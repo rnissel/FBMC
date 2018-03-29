@@ -24,53 +24,53 @@ Just an illustration.
 Please run [`Figure_02_PowerSpectralDensity.m`](Figure_02_PowerSpectralDensity.m).
 
 * **Figure  3**: 
-Please run `Figure_03_BERoverSNR_MIMO.m`.
+Please run [`Figure_03_BERoverSNR_MIMO.m`](Figure_03_BERoverSNR_MIMO.m).
 
 * **Figure  4**: 
 Just an illustration.
 
 * **Figure  5**: 
-Please run `OptimalSubcarrierSpacing/Figure_5_6_7_8_SIR_OptimalSubcarrierSpacing.m`. Note that this script uses pre calculated values, stored in `OptimalSubcarrierSpacing/Results/`. To generate those pre-calculated values, the script `OptimalSubcarrierSpacing/Calculate_SIR_SubcarrierSpacing_Velocity.m` needs to be executed.
+Please run [`OptimalSubcarrierSpacing/Figure_5_6_7_8_SIR_OptimalSubcarrierSpacing.m`](OptimalSubcarrierSpacing/Figure_5_6_7_8_SIR_OptimalSubcarrierSpacing.m). Note that this script uses pre calculated values, stored in [`OptimalSubcarrierSpacing/Results/`](OptimalSubcarrierSpacing/Results/). To generate those pre-calculated values, the script [`OptimalSubcarrierSpacing/Calculate_SIR_SubcarrierSpacing_Velocity.m`](OptimalSubcarrierSpacing/Calculate_SIR_SubcarrierSpacing_Velocity.m) needs to be executed.
 
 * **Figure  6**: 
-Please run `OptimalSubcarrierSpacing/Figure_5_6_7_8_SIR_OptimalSubcarrierSpacing.m`, see comment of Figure 5
+Please run [`OptimalSubcarrierSpacing/Figure_5_6_7_8_SIR_OptimalSubcarrierSpacing.m`](OptimalSubcarrierSpacing/Figure_5_6_7_8_SIR_OptimalSubcarrierSpacing.m), see comment of Figure 5
 
 * **Figure  7**: 
-Please run `OptimalSubcarrierSpacing/Figure_5_6_7_8_SIR_OptimalSubcarrierSpacing.m`, see comment of Figure 5
+Please run [`OptimalSubcarrierSpacing/Figure_5_6_7_8_SIR_OptimalSubcarrierSpacing.m`](OptimalSubcarrierSpacing/Figure_5_6_7_8_SIR_OptimalSubcarrierSpacing.m), see comment of Figure 5
 
 * **Figure  8**: 
-Please run `OptimalSubcarrierSpacing/Figure_5_6_7_8_SIR_OptimalSubcarrierSpacing.m`, see comment of Figure 5
+Please run [`OptimalSubcarrierSpacing/Figure_5_6_7_8_SIR_OptimalSubcarrierSpacing.m`](OptimalSubcarrierSpacing/Figure_5_6_7_8_SIR_OptimalSubcarrierSpacing.m), see comment of Figure 5
 
 * **Figure  9**: 
-Please run `Figure_09_SpectralEfficiency.m`.
+Please run [`Figure_09_SpectralEfficiency.m`](Figure_09_SpectralEfficiency.m).
 
 * **Figure  10**: 
-Please run `Figure_10_11_TwoSubcarrierSpacingsSameBand.m`.
+Please run [`Figure_10_11_TwoSubcarrierSpacingsSameBand.m`](Figure_10_11_TwoSubcarrierSpacingsSameBand.m).
 
 * **Figure  11**: 
-Please run `Figure_10_11_TwoSubcarrierSpacingsSameBand.m`.
+Please run [`Figure_10_11_TwoSubcarrierSpacingsSameBand.m`](Figure_10_11_TwoSubcarrierSpacingsSameBand.m).
 
 * **Figure  12**: 
-Please run `Figure_12_Throughput.m`.
+Please run [`Figure_12_Throughput.m`](Figure_12_Throughput.m).
 
 * **Figure  13**: 
-Please run `Figure_13_PowerSpectralDensityQuantization.m`.
+Please run [`Figure_13_PowerSpectralDensityQuantization.m`](Figure_13_PowerSpectralDensityQuantization.m).
 
 
 ## Additional Explanations of FBMC
 
-1. `Explained_A_PrototypeFilters.m`: Illustration of different prototype filters.
-2. `Explained_B_FBMC_OQAM.m`: Describes a back-to-back FBMC-OQAM transmission, based on Section III. In particular, the transmit matrix (18)-(22) as well as the IFFT approach (32) are implemented.
-3. `Explained_C_Coded_FBMC_OQAM.m`: Shows how to find the precoding matrix, see (26) and (27), allowing QAM transmissions in FBMC-OQAM at full rate. Furthermore, it illustrates the time/frequency spreading concept.
-4. `Explained_D_SIR_DoublySelectiveChannel.m`: Implements Equation (35)-(40). Furthermore, it compares the theoretical values to simulations.
+1. [`Explained_A_PrototypeFilters.m`](Explained_A_PrototypeFilters.m): Illustration of different prototype filters.
+2. [`Explained_B_FBMC_OQAM.m`](Explained_B_FBMC_OQAM.m): Describes a back-to-back FBMC-OQAM transmission, based on Section III. In particular, the transmit matrix (18)-(22) as well as the IFFT approach (32) are implemented.
+3. [`Explained_C_Coded_FBMC_OQAM.m`](Explained_C_Coded_FBMC_OQAM.m): Shows how to find the precoding matrix, see (26) and (27), allowing QAM transmissions in FBMC-OQAM at full rate. Furthermore, it illustrates the time/frequency spreading concept.
+4. [`Explained_D_SIR_DoublySelectiveChannel.m`](Explained_D_SIR_DoublySelectiveChannel.m): Implements Equation (35)-(40). Furthermore, it compares the theoretical values to simulations.
 
 
 ## 5G New Radio
 We also include a comparison to New Radio (NR) waveforms (WOLA, UFMC, f-OFDM):	
 
-1. `NR_5G_BER_DoublySelectiveChannel.m`: Simulates the Bit Error Ratio (BER) in a doubly-selective channel. It compares FBMC-OQAM, CP-OFDM, WOLA, UFMC and f-OFDM.
+1. [`NR_5G_BER_DoublySelectiveChannel.m`](NR_5G_BER_DoublySelectiveChannel.m): Simulates the Bit Error Ratio (BER) in a doubly-selective channel. It compares FBMC-OQAM, CP-OFDM, WOLA, UFMC and f-OFDM.
 	
-2. `NR_5G_SIR_TimeFrequencyOffset.m`: Calculates the Signal-to-Interference Ratio (SIR) in case of a time and a frequency offset for FBMC-OQAM, FBMC-QAM, CP-OFDM, WOLA, UFMC and f-OFDM.	
+2. [`NR_5G_SIR_TimeFrequencyOffset.m`](NR_5G_SIR_TimeFrequencyOffset.m): Calculates the Signal-to-Interference Ratio (SIR) in case of a time and a frequency offset for FBMC-OQAM, FBMC-QAM, CP-OFDM, WOLA, UFMC and f-OFDM.	
 
 
 
