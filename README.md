@@ -6,7 +6,7 @@ can be reproduce. In particular, this repository
 
 * calculates the Power Spectral Density (PSD),
 * simulates a MIMO transmission, 
-* calculates the Signal-to-Interference (SIR) in doubly-selective channels, 
+* calculates the Signal-to-Interference Ratio (SIR) in doubly-selective channels, 
 * calculates the time-frequency efficiency,
 * simulates the throughput.  
 
