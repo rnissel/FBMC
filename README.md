@@ -2,7 +2,7 @@
 
 
 This repository compares FBMC to OFDM based schemes. All Figure from R. Nissel, S. Schwarz, and M. Rupp, [“Filter bank multicarrier modulation schemes for future mobile communications”](https://publik.tuwien.ac.at/files/publik_260162.pdf), IEEE Journal on Selected Areas in Communications, 2017, 
-can be reproduce. In particular, this repository
+can be reproduce. In particular this repository
 
 * calculates the Power Spectral Density (PSD),
 * simulates a MIMO transmission, 
@@ -80,13 +80,13 @@ We also include a comparison to New Radio (NR) waveforms (WOLA, UFMC, f-OFDM):
 		author  = {R. Nissel and S. Schwarz and M. Rupp},
 		journal = {IEEE Journal on Selected Areas in Communications},
 		title   = {Filter Bank Multicarrier Modulation Schemes for Future Mobile Communications},
-		year={2017},
-		volume={35},
-		number={8},
-		pages={1768-1782}, 
-		doi={10.1109/JSAC.2017.2710022},
-		ISSN={0733-8716},
-		month={Aug},
+		year 	= {2017},
+		volume 	= {35},
+		number 	= {8},
+		pages 	= {1768-1782}, 
+		doi 	= {10.1109/JSAC.2017.2710022},
+		ISSN 	= {0733-8716},
+		month 	= {Aug},
 	}
 
 
